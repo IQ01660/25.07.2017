@@ -1,0 +1,105 @@
+body {
+    margin:0;
+}
+.navigIntro {
+    background:rgba(27, 109, 63,0.01);
+    width:100%;
+    margin:0;
+    position:fixed;
+    top:0;
+    left:0;
+}
+/*changing bootstrap navigation bar*/
+a:focus, a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background:none;
+}
+.navbar-inverse .navbar-brand {
+    color: #BED0C0;
+}
+.navbar-brand {
+    color:#BED0C0;
+    font-size:26px;
+    font-weight:900;
+    letter-spacing: 2px;
+}
+.navbar-nav {
+    float:right;
+    margin-right:10%;
+}
+.navbar-inverse .navbar-nav>li>a {
+     color: #BED0C0; 
+}
+.nav>li>a {
+    color: #BED0C0; 
+    font-size:18px;
+}
+.navBut:hover {
+    color:white;
+}
+@media only screen and (max-width:768px) {
+    .navbar-nav {
+        text-align:center;
+        float:none;
+        margin-right:0;
+    }
+    .navbar-brand {
+        text-align: center;
+        float:none;
+        display:block;
+        margin:0;
+        margin-right:2.5%;
+    }
+    .mainTitle {
+        top:185px;
+    }
+    .mainSub {
+        display:none;
+    }
+    .mainBut {
+        top:185px;
+    }
+}
+.intro {
+    background-image: url("img/intro-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.mainTitle {
+    color:white;
+    text-align: center;
+    padding-top:10%;
+    margin:40px auto;
+    position:relative;
+}
+.mainTitle h1 {
+    font-size:64px;
+    font-weight:700;
+}
+.mainSub {
+    color:white;
+    text-align: center;
+    margin:40px auto;
+    width:45%;
+    position:relative;
+}
+.mainSub span {
+    font-size: 19px;
+}
+.mainBut {
+    text-align: center;
+    margin:40px auto;
+    position:relative;
+}
+.mainBut button {
+    width:120px;
+    height:50px;
+    background:#1E7A45;
+    border-bottom:green 2px outset;
+}
